@@ -1,0 +1,21 @@
+{
+  "name": "botskis",
+  "version": "1.0.0",
+  "description": "Heroku buildpack for Java [![Build Status](https://travis-ci.org/heroku/heroku-buildpack-java.svg)](https://travis-ci.org/heroku/heroku-buildpack-java) [![CircleCI](https://circleci.com/gh/heroku/heroku-buildpack-java.svg?style=svg)](https://circleci.com/gh/heroku/heroku-buildpack-java) =========================",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ban",
+  "license": "ISC",
+  "dependencies": {
+    "dateformat": "^3.0.3",
+    "discord.js": "^11.4.2",
+    "fs": "0.0.1-security",
+    "moment": "^2.24.0",
+    "moment-duration-format": "^2.2.2",
+    "mongoose": "^5.4.16",
+    "ms": "^2.1.1",
+    "ytdl-core": "^0.29.1"
+  }
+}
