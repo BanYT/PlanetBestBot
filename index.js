@@ -20,7 +20,6 @@ const botconfig = require("./botconfig.json")
 let purple = botconfig.purple;
 let coins = require("./coins.json");
 let xp = require("./xp.json");
-const ytdl = require('ytdl-core');
 const cooldowns = new discord.Collection();
 bot.config = config;
 const version = "1.0";
